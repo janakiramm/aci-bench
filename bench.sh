@@ -5,12 +5,12 @@ local_end=`date +%s`
 local_runtime=$((local_end-local_start))
 # ACI Environment
 aci_start=`date +%s`
-#./aci.sh
+./aci.sh
 aci_end=`date +%s`
 aci_runtime=$((aci_end-aci_start))
 # Azure VMs
 vm_start=`date +%s`
-#./vm.sh
+./vm.sh
 vm_end=`date +%s`
 vm_runtime=$((vm_end-vm_start))
 
