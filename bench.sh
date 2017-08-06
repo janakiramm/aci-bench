@@ -14,6 +14,6 @@ vm_start=`date +%s`
 vm_end=`date +%s`
 vm_runtime=$((vm_end-vm_start))
 
-echo "Local Docker Environment - "$local_runtime " seconds"
-echo "ACI Environment - "$aci_runtime " seconds"
-echo "VM Environment - "$vm_runtime " seconds"
+echo "Local Docker Environment - "$local_runtime "seconds"
+echo "ACI Environment - "$aci_runtime "seconds"
+echo "VM Environment - "$vm_runtime "seconds"
