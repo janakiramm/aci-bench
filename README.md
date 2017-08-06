@@ -3,6 +3,8 @@ Use these scripts to benchmark the startup time of local Docker, Azure Container
 
 Please install [jq](https://stedolan.github.io/jq/) before running these scripts. You also need the latest version of [Azure CLI](https://github.com/Azure/azure-cli). 
 
+The steps include launching the resources, adding a public IP address (only for Azure VM), and accessing the Nginx homepage. 
+
 After configuring Azure CLI and cloning the repo, run 
 
 ```shell
